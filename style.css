@@ -1,0 +1,143 @@
+body {
+  background: linear-gradient(
+      141deg,
+      hsl(177.91, 100%, 45.1%) 0%,
+      hsl(177.91, 100%, 45.1%) 5%,
+      hsl(179.59, 100%, 43.91%) 5%,
+      hsl(179.59, 100%, 43.91%) 10%,
+      hsl(181.33, 100%, 43.69%) 10%,
+      hsl(181.33, 100%, 43.69%) 15%,
+      hsl(183.07, 100%, 43.78%) 15%,
+      hsl(183.07, 100%, 43.78%) 20%,
+      hsl(184.8, 100%, 43.86%) 20%,
+      hsl(184.8, 100%, 43.86%) 25%,
+      hsl(186.52, 100%, 43.94%) 25%,
+      hsl(186.52, 100%, 43.94%) 30%,
+      hsl(188.24, 100%, 44.02%) 30%,
+      hsl(188.24, 100%, 44.02%) 35%,
+      hsl(189.95, 100%, 44.11%) 35%,
+      hsl(189.95, 100%, 44.11%) 40%,
+      hsl(191.66, 100%, 44.19%) 40%,
+      hsl(191.66, 100%, 44.19%) 45%,
+      hsl(193.36, 100%, 44.27%) 45%,
+      hsl(193.36, 100%, 44.27%) 50%,
+      hsl(195.05, 100%, 44.36%) 50%,
+      hsl(195.05, 100%, 44.36%) 55%,
+      hsl(196.73, 100%, 44.44%) 55%,
+      hsl(196.73, 100%, 44.44%) 60%,
+      hsl(198.41, 100%, 44.52%) 60%,
+      hsl(198.41, 100%, 44.52%) 65%,
+      hsl(200.09, 100%, 44.6%) 65%,
+      hsl(200.09, 100%, 44.6%) 70%,
+      hsl(201.76, 100%, 44.69%) 70%,
+      hsl(201.76, 100%, 44.69%) 75%,
+      hsl(203.42, 100%, 44.77%) 75%,
+      hsl(203.42, 100%, 44.77%) 80%,
+      hsl(205.07, 100%, 44.85%) 80%,
+      hsl(205.07, 100%, 44.85%) 85%,
+      hsl(206.72, 100%, 44.93%) 85%,
+      hsl(206.72, 100%, 44.93%) 90%,
+      hsl(208.36, 100%, 45.02%) 90%,
+      hsl(208.36, 100%, 45.02%) 95%,
+      hsl(210, 100%, 45.1%) 95%,
+      hsl(210, 100%, 45.1%) 100%
+    )
+    no-repeat fixed;
+}
+div.todo-wrapper {
+  max-width: 100%;
+  color: ghostwhite;
+  background-color: rgb(50, 159, 181);
+  margin: 70px 100px;
+  padding: 30px 30px;
+  border-radius: 70px 0 50px 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    align-items: flex-end;
+}
+.todo-wrapper h2 {
+  margin: 0;
+}
+.todo-wrapper p {
+  color: saddlebrown;
+  font-style: italic;
+  margin: 5px 0;
+}
+.todo-wrapper ol li {
+  cursor: default;
+  margin: 10px 0;
+  padding: 3px;
+  transition: all 0.7s ease-out;
+}
+.todo-wrapper ol li:nth-child(even) {
+  background-color: darkcyan;
+}
+.todo-wrapper .completed {
+  text-decoration: line-through;
+}
+.todo-wrapper form {
+  display: inline;
+}
+.todo-wrapper input {
+  max-width: 100%;
+  padding: 5px 30% 5px 5px;
+  margin: 10px 20px 20px 0;
+  text-align: left;
+  flex-wrap: wrap;
+}
+.button-style {
+  padding: 7px 15px;
+  background-color: rgb(3, 100, 100);
+  color: whitesmoke;
+  border: none;
+  border-radius: 15px;
+  margin-left: 5px;
+}
+.button-style:hover {
+  cursor: pointer;
+  background-color: darkturquoise;
+  color: firebrick;
+}
+#control-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+#clear-completed-button {
+  background-color: dodgerblue;
+  color: ghostwhite;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 15px;
+}
+#clear-completed-button:hover {
+  cursor: pointer;
+  background-color: blue;
+  color: black;
+}
+#empty-button {
+  background-color: red;
+  color: ghostwhite;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 15px;
+}
+#empty-button:hover {
+  cursor: pointer;
+  background-color: crimson;
+  color: black;
+}
+#save-button {
+  background-color: mediumseagreen;
+  color: ghostwhite;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 15px;
+}
+#save-button:hover {
+  cursor: pointer;
+  background-color: green;
+  color: black;
+}
